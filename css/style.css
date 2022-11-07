@@ -2601,6 +2601,10 @@ body.active-menu{
     .block-card-qr .logo-emagine{
         width: 210px;
     }
+    .b-ico-calendar::after{
+        top: 8px;
+        right: 9px;
+    }
     /*Footer*/
     .l-block-footer h4{
         font-size: 16px;
@@ -2626,7 +2630,7 @@ body.active-menu{
         padding: 38px 70px;
     }
 }
-@media only screen and (max-width: 468px){
+@media only screen and (max-width: 480px){
     /*Header*/
     .inner-nav-mobil .nav-list-into li a{
         font-size: 21px;
@@ -2935,6 +2939,12 @@ body.active-menu{
     }
     .block-card-qr{
         margin: 25px 20px;
+    }
+    .b-ico-calendar::after{
+        width: 24px;
+        height: 22px;
+        top: 8px;
+        right: 8px;
     }
     /*Footer*/
     .b-secondary-footer span {
