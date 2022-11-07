@@ -762,6 +762,10 @@ body.active-menu{
     color: #909090;
     font-weight: 700;
 }
+.all-form-s .form-group .b-search-input{
+    position: relative;
+    padding-right: 110px;
+}
 .all-form-s .form-group label{
     display: block;
     font-size: 30px;
@@ -781,6 +785,27 @@ body.active-menu{
     font-size: 30px;
     color: #A6A6A6;
     font-weight: 500;
+}
+.all-form-s .form-group .btn-search-input{
+    border-radius: 5px;
+    background: #2125E4;
+    height: 53px;
+    line-height: 53px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    border: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: 0;
+}
+.all-form-s .form-group .btn-search-input:active,
+.all-form-s .form-group .btn-search-input:hover,
+.all-form-s .form-group .btn-search-input:focus{
+    opacity: 0.9;
+    color: #fff;
 }
 .all-form-s .form-group select{
     font-size: 30px;
@@ -1689,6 +1714,10 @@ body.active-menu{
     }
     .all-b-p-intern h2 {
         font-size: 32px;
+    }
+    .all-form-s .form-group .btn-search-input{
+        height: 48px;
+        line-height: 48px;
     }
     /*Fotter*/
     .b-secondary-footer span{
@@ -2605,6 +2634,15 @@ body.active-menu{
         top: 8px;
         right: 9px;
     }
+    .all-form-s .form-group .b-search-input{
+        padding-right: 75px;
+    }
+    .all-form-s .form-group .btn-search-input{
+        height: 44px;
+        line-height: 44px;
+        font-size: 16px;
+        padding: 0 10px;
+    }
     /*Footer*/
     .l-block-footer h4{
         font-size: 16px;
@@ -2945,6 +2983,15 @@ body.active-menu{
         height: 22px;
         top: 8px;
         right: 8px;
+    }
+    .all-form-s .form-group .b-search-input{
+        padding-right: 65px;
+    }
+    .all-form-s .form-group .btn-search-input{
+        height: 38px;
+        line-height: 38px;
+        font-size: 14px;
+        padding: 0 8px;
     }
     /*Footer*/
     .b-secondary-footer span {
